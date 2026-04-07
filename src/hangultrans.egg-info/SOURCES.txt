@@ -9,5 +9,4 @@ src/hangultrans/_native.c
 src/hangultrans.egg-info/PKG-INFO
 src/hangultrans.egg-info/SOURCES.txt
 src/hangultrans.egg-info/dependency_links.txt
-src/hangultrans.egg-info/not-zip-safe
 src/hangultrans.egg-info/top_level.txt

@@ -4,12 +4,11 @@
     {
       "name": "Win32",
       "includePath": [
-        "${workspaceFolder}/include",
+        "${workspaceFolder}/Include",
         "${workspaceFolder}/src",
         "C:/Users/quswo/anaconda3/Include"
       ],
       "defines": [],
-      "compilerPath": "C:/msys64/ucrt64/bin/gcc.exe",
       "cStandard": "c11",
       "cppStandard": "c++17",
       "intelliSenseMode": "windows-gcc-x64"
