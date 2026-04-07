@@ -1,21 +1,26 @@
 from setuptools import setup, Extension, find_packages
+import sysconfig
+
+python_include = sysconfig.get_paths()["include"]
 
 ext_modules = [
     Extension(
-        "mypkg._native",
+        "hangultrans._native",
         sources=[
-            "src/mypkg/_native.c",
-            "csrc/core.c",
-            "csrc/util.c",
+            "src/hangultrans/_native.c",
+            "csrc/hangul.c",
         ],
-        include_dirs=["include"],
+        include_dirs=[
+            "include",
+            python_include,
+        ],
     )
 ]
 
 setup(
     name="hangultrans",
     version="0.1.0",
-    packages=find_packages(where="src"),
     package_dir={"": "src"},
+    packages=find_packages(where="src"),
     ext_modules=ext_modules,
 )

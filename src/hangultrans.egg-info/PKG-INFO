@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: hangultrans
+Version: 0.1.0
+Author: Jaewoo Byun
+Author-email: quswodn1211@gmail.com
+License: MIT
+License-File: LICENSE
+Dynamic: author
+Dynamic: author-email
+Dynamic: license
+Dynamic: license-file

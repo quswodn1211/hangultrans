@@ -1,17 +1,14 @@
 [build-system]
-requires = ["setuptools >= 77", "wheel"]
+requires = ["setuptools>=77", "wheel"]
 build-backend = "setuptools.build_meta"
 
-# [project]
-# name = "hangultrans"
-# version = "0.1.0"
-# description = "It provides a convenient utility designed to address longstanding issues related to Korean text encoding in UTF-8, helping developers handle and process Hangul characters more reliably and efficiently."
-# requires-python = ">=3.11"
-# dependencies = []
-# authors = [
-#   {name = "Jaewoo Byun", email = "quswodn1211@gmail.com"}
-# ]
-# maintainers = [
-#   {name = "Jaewoo Byun", email = "quswodn1211@gmail.com"}
-
-# ]
+[project]
+name = "hangultrans"
+version = "0.1.0"
+description = "Hangul encoder with 3-byte triples"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [
+  { name = "Jaewoo Byun", email = "quswodn1211@gmail.com" }
+]
