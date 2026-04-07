@@ -3,10 +3,8 @@ README.md
 pyproject.toml
 setup.py
 csrc/hangul.c
-src/hangultrans/_native.c
-src/hangultrans/__init__.py
-src/hangultrans/_native.c
 src/hangultrans.egg-info/PKG-INFO
 src/hangultrans.egg-info/SOURCES.txt
 src/hangultrans.egg-info/dependency_links.txt
 src/hangultrans.egg-info/top_level.txt
+src/hangultrans_bjw/__init__.py
