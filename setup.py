@@ -7,9 +7,9 @@ python_include = sysconfig.get_paths()["include"]
 
 ext_modules = [
     Extension(
-        "hangultrans._native",
+        "hangultrans_bjw._native",
         sources=[
-            "src/hangultrans/_native.c",
+            "src/hangultrans_bjw/_native.c",
             "csrc/hangul.c",
         ],
         include_dirs=[
@@ -21,7 +21,7 @@ ext_modules = [
 
 setup(
     name="hangultrans_bjw",
-    version="0.1.0",
+    version="0.1.1",
     package_dir={"": "src"},
     packages=find_packages(where="src"),
     ext_modules=ext_modules,
