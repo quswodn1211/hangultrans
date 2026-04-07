@@ -13,9 +13,9 @@ Missing components are represented as `0x00`.
 
 ## Installation
 
-'''bash
+```bash
 pip install hangultrans
-'''
+```
 
 ## Examples
 
