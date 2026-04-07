@@ -9,12 +9,23 @@ Each character is converted into:
 
 Missing components are represented as `0x00`.
 
+해당 레포지토리는 PyPI에 올리기 위한 레포입니다. UTF-8의 한글 인코딩에서 발생하는 고질적인 문제점을 해결하여 보다 간편하게 사용하고자 만든 패키지입니다.
+
+한 글자를 초성 중성 종성 - 3바이트로 나누어 표시를 해줍니다. 기존 유니코드 방식또한 3바이트를 사용하나 초성 중성 종성의 관계가 아닌 가-힣 의 순서로 배치되어 비교연산이 어려웠기에 개선하였습니다.
+
 ---
 
 ## Installation
 
 ```bash
 pip install hangultrans_bjw
+```
+
+or 
+
+```bash
+/* 깃 클론 후 */
+pip install -v -e .
 ```
 
 ## Examples
