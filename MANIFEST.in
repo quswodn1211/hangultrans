@@ -1,1 +1,3 @@
 include include/hangul.h
+include csrc/hangul.c
+include src/hangultrans_bjw/_native.c
